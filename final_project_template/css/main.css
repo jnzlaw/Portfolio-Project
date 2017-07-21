@@ -1,0 +1,122 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+  font-family: Rufina Oxygen;
+  margin: 0;
+}
+
+/* Fix for responsive images */
+
+
+Header {
+font-size: 24px;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+letter-spacing: 50px;
+background-color: #89AAAD;
+text-decoration: none;
+}
+
+nav {
+  position:fixed;
+  top: 0
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+
+ul a {
+  text-transform: none;
+
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+  }
+
+nav li{
+  display: inline-block;
+  padding-bottom: 500px;
+}
+
+nav a {
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  border-bottom: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #696D7F
+}
+
+h2{
+  font-size: 18px;
+
+}
+
+h4{
+  font-size: 15px;
+}
+
+P {
+font-size: 10px;
+
+}
+
+main{
+
+  display: flex;
+  flex-direction: row;
+
+}
+  #education{
+  column-count: 2;
+  padding-top: 100px;
+
+  }
+
+  #experience {
+     column-count: 3;
+     padding-top: 100px;
+  }
+
+  #more {
+    column-count: 3;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+footer input {
+  padding: 11px 10px;
+  width: 300px;
+  margin-right: 30px;
+  border: 0;
+  text-align: center;
+}
+
+
+
+
+contact{
+background-color: #89AAAD;
+overflow: auto;
+
+}
